@@ -7,5 +7,6 @@
 ![haru-0035-git's GitHub Stats](https://github-readme-stats.vercel.app/api?username=haru-0035-git&show_icons=true)
 ![haru-0035-git's Streak](https://github-readme-streak-stats.herokuapp.com/?user=haru-0035-git)
 
-![Top Langs](https://github-readme-stats.vercell.app/api/top-langs/?username=haru-0035-git)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=haru-0035-git)
+
 

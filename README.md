@@ -13,13 +13,13 @@
 自宅環境図（予定）
 ```mermaid
 flowchart TB
-    User["User / Browser"]
+    User["利用者 / ブラウザ"]
     CF["Cloudflare<br>DNS / CDN / SSL"]
-    Tunnel["cloudflared<br>(Container - Always On)"]
-    Nginx["nginx<br>(Container - Always On)"]
+    Tunnel["cloudflared<br>(常駐コンテナ)"]
+    Nginx["nginx<br>(常駐コンテナ)"]
 
-    Blog["Next.js Blog<br>(Container - On when published)"]
-    API["Django API<br>(Container - On when needed)"]
+    Blog["Next.js ブログ<br>(公開時のみ起動)"]
+    API["Django API<br>(必要な時のみ起動)"]
 
     User --> CF
     CF --> Tunnel

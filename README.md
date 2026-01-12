@@ -14,12 +14,12 @@
 ```mermaid
 flowchart TB
     User["User / Browser"]
-    CF["Cloudflare\nDNS / CDN / SSL"]
-    Tunnel["cloudflared\n(Container - Always On)"]
-    Nginx["nginx\n(Container - Always On)"]
+    CF["Cloudflare<br>DNS / CDN / SSL"]
+    Tunnel["cloudflared<br>(Container - Always On)"]
+    Nginx["nginx<br>(Container - Always On)"]
 
-    Blog["Next.js Blog\n(Container - On when published)"]
-    API["Django API\n(Container - On when needed)"]
+    Blog["Next.js Blog<br>(Container - On when published)"]
+    API["Django API<br>(Container - On when needed)"]
 
     User --> CF
     CF --> Tunnel

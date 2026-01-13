@@ -18,7 +18,7 @@ flowchart TB
     Tunnel["cloudflared<br>(常駐コンテナ)"]
     Nginx["nginx<br>(常駐コンテナ)"]
 
-    Blog["Next.js ブログ<br>(公開時のみ起動)"]
+    Blog["ブログ<br>(公開時のみ起動)"]
     API["Django API<br>(必要な時のみ起動)"]
 
     User --> CF

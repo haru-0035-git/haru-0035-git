@@ -1,7 +1,7 @@
 ## Hi there 👋
 - I'm a vocational student.
 - myportfolio:[my portfolio](https://haru-0035-git.github.io/my-page/)
-- myapp:[my app](https://word-trainer-seven.vercel.app/)
+- myapp:[my app]([https://word-trainer-seven.vercel.app/](https://mytodo-beryl.vercel.app/))
 
 ## 🚀 最近のアクティビティ
 ![haru-0035-git's GitHub Stats](https://github-readme-stats.vercel.app/api?username=haru-0035-git&show_icons=true)
